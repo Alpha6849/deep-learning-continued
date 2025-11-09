@@ -45,4 +45,45 @@ Tomorrow:
 - Save generated samples.
 
 
+## Day 2(9/11/25) — Continuing LSTM Training + Understanding Temperature
+
+### What I Did Today
+- Loaded the saved model and mappings correctly.
+- Loaded the training data (`X` and `y`) and continued training instead of training again from zero.
+- Trained model for **5 more epochs**.
+- Loss improved from **2.09 → ~1.47** which means:
+  - The model is now remembering patterns much better.
+  - Sentence structure is cleaner.
+
+### Key Understanding From Today
+
+Temperature Controls Creativity
+When generating text, we change **temperature**:
+
+| Temperature | Meaning | Output Style |
+|------------|---------|--------------|
+| **0.3** | Very low randomness | Very structured but repetitive |
+| **0.7** | Balanced creativity | Best quality, smooth flow |
+| **1.2** | High randomness | Wild, poetic, sometimes nonsense |
+
+I saw the difference clearly in outputs:
+- **0.3** felt safe and repetitive.
+- **0.7** felt natural and “Shakespeare-like”.
+- **1.2** became creative and chaotic.
+
+This helped me understand:
+> Temperature affects *how confident vs creative* the model acts.
+
+ GRU Model
+
+- GRU is similar to LSTM but uses fewer gates (no output gate).
+- It trains faster and has fewer parameters.
+- Performance is almost similar to LSTM.
+- Difference I noticed:
+  - LSTM output feels more expressive.
+  - GRU output feels simpler and sometimes repetitive.
+
+
+
+
 
