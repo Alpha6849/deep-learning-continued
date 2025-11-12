@@ -2,3 +2,7 @@
 *.zip
 *.npy
 *.pkl
+
+# Ignore datasets and VS Code folders
+dataset/
+.vscode/
