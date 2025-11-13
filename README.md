@@ -39,7 +39,13 @@ deep-learning-journey/
 │
 └── README.md  ← Main repository overview
 
-(for daily notes and updates refer the notes.md file in each week)
+
+### 📝 Notes Navigation
+For daily notes and updates, refer to **notes.md** inside each week.
+
+- Phase1/Week1/notes.md → RNNs, LSTMs, GRUs, Text Generation  
+- Phase1/Week2/notes.md → CNNs, Transfer Learning, Fine-Tuning, Grad-CAM
+
 
 
 ## ⏳ Phase 2, 3, 4
