@@ -8,8 +8,8 @@ This phase focuses on understanding the *core building blocks* of Deep Learning 
 
 | Week | Topic Focus | Project | Status |
 |------|------------|---------|--------|
-| **Week 1** | Sequence Models (RNN → LSTM → GRU) | Text Generation Model | ✅ Done |
-| Week 2 | Computer Vision (CNNs + Grad-CAM) | Image Classifier + Explainability | ⏳ Next |
+| **Week 1** | Sequence Models (RNN → LSTM → GRU) | Text Generation Model | Done |
+| Week 2 | Computer Vision (CNNs + Grad-CAM) | Image Classifier + Explainability | Done |
 | Week 3 | Transformers + NLP | Sentiment / Chat Model using DistilBERT / GPT-2 | ⏳ Pending |
 | Week 4 | Autoencoders + GAN + Deployment | AE + GAN + Model Serving (FastAPI + UI) | ⏳ Pending |
 
@@ -30,13 +30,13 @@ This phase focuses on understanding the *core building blocks* of Deep Learning 
 
 Notes are inside **Week1/notes.md**
 
----
+## Week 2 – CNNs & Transfer Learning
+- Full plant disease classifier pipeline
+- Baseline CNN → 50% accuracy
+- Transfer learning with ResNet50 → 95%
+- Fine-tuning ResNet50 → 98%
+- Grad-CAM explainability
 
-## Coming Next (Week 2 Focus)
-- Understand **convolution → feature maps**
-- Train CNN classifier
-- Add **Grad-CAM** to explain *why* the model predicted something
+Notes are inside **Week2/notes.md**
 
-This builds the **vision intuition** needed for GANs later.
 
----
