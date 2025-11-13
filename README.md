@@ -21,7 +21,7 @@ I am currently completing **Phase 1**, where I build core understanding and hand
 deep-learning-journey/
 Phase1/
 Week1/ ← completed
-
+Week2/ ← completed
 
 ---
 
