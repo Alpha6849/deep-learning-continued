@@ -17,8 +17,9 @@ I am currently completing **Phase 1**, where I build core understanding and hand
 
 ---
 
-##  Current Repo Navigation
+## 📂 Current Repo Navigation
 
+```text
 deep-learning-journey/
 │
 ├── Phase1/
@@ -38,13 +39,14 @@ deep-learning-journey/
 │   └── (Upcoming Weeks)
 │
 └── README.md  ← Main repository overview
+```
 
+### 📝 Notes Navigation  
+For daily notes & learning progress refer to the **notes.md** inside each week:
 
-### 📝 Notes Navigation
-For daily notes and updates, refer to **notes.md** inside each week.
-
-- Phase1/Week1/notes.md → RNNs, LSTMs, GRUs, Text Generation  
+- Phase1/Week1/notes.md → RNNs, LSTM, GRU, Text Generation  
 - Phase1/Week2/notes.md → CNNs, Transfer Learning, Fine-Tuning, Grad-CAM
+
 
 
 
