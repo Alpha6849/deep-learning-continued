@@ -20,6 +20,7 @@ I am currently completing **Phase 1**, where I build core understanding and hand
 ##  Current Repo Navigation
 deep-learning-journey/
 Phase1/Week1/ ← completed
+
 Phase1/Week2/ ← completed
 
 
