@@ -18,13 +18,29 @@ I am currently completing **Phase 1**, where I build core understanding and hand
 ---
 
 ##  Current Repo Navigation
+
 deep-learning-journey/
-Phase1/Week1/ ← completed
+│
+├── Phase1/
+│   ├── Week1/        ← ✔ Completed
+│   │   ├── seqmodels.ipynb
+│   │   ├── gru.ipynb
+│   │   ├── notes.md
+│   │   └── README.md
+│   │
+│   ├── Week2/        ← ✔ Completed
+│   │   ├── cnn_leaf_classifier.ipynb
+│   │   ├── resnet50_leaf_disease.h5
+│   │   ├── resnet50_leaf_disease_finetuned.h5
+│   │   ├── notes.md
+│   │   └── README.md
+│   │
+│   └── (Upcoming Weeks)
+│
+└── README.md  ← Main repository overview
 
-Phase1/Week2/ ← completed
+(for daily notes and updates refer the notes.md file in each week)
 
-
----
 
 ## ⏳ Phase 2, 3, 4
 Details will be added as I progress.
