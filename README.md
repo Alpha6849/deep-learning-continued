@@ -42,7 +42,7 @@ deep-learning-journey/
 ```
 
 ### 📝 Notes Navigation  
-For daily notes & learning progress refer to the **notes.md** inside each week:
+For my daily notes & learning progress refer to the **notes.md** inside each week:
 
 - Phase1/Week1/notes.md → RNNs, LSTM, GRU, Text Generation  
 - Phase1/Week2/notes.md → CNNs, Transfer Learning, Fine-Tuning, Grad-CAM
