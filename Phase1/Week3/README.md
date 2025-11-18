@@ -16,25 +16,25 @@ All implementation and detailed exploration are inside the Jupyter notebooks.
 
 ## 📅 Week 3 
 
-### Transformers Basics**
+### Transformers Basics
 - Understand the Transformer workflow  
 - Learn tokenization, embeddings, attention flow  
 - Set up the HuggingFace environment  
 - Notebook: *Transformer basics*
 
-### HuggingFace Pipelines**
+### HuggingFace Pipelines
 - Run pretrained NLP models for inference  
 - Test sentiment analysis, text generation  
 - Notebook: *Pipelines demonstration*
 
-### Fine-Tuning DistilBERT**
+### Fine-Tuning DistilBERT
 - Load IMDb dataset  
 - Tokenize and prepare dataset  
 - Fine-tune DistilBERT for sentiment classification  
 - Save model + evaluation metrics  
 - Notebook: *DistilBERT fine-tuning*
 
-### GPT-2 Text Generation (Optional Finetune)**
+### GPT-2 Text Generation (Optional Finetune)
 - Use GPT-2 for free-form text generation  
 - Optional: finetune on small custom corpus  
 - Notebook: *GPT-2 generation*
@@ -42,6 +42,8 @@ All implementation and detailed exploration are inside the Jupyter notebooks.
 ---
 
 ## 📁 Folder Structure
+
+'''
 
 Week3_Transformers/
 │
@@ -60,6 +62,8 @@ Week3_Transformers/
 │ └── requirements.txt
 │
 └── README.md
+
+'''
 
 
 ---
