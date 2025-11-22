@@ -15,8 +15,8 @@ These models had problems:
 Transformers fix all of this because they:
 - Process all words at the same time (parallel)
 - Compare every word with every other word
-- Handle long context easily
-- Train faster and scale to huge models
+- Haly
+- Train faster and scale to ndle long context easihuge models
 
 This is why almost all modern NLP models (BERT, GPT, LLaMA, etc.) use Transformers.
 
