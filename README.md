@@ -36,10 +36,20 @@ deep-learning-journey/
 │   │   ├── notes.md
 │   │   └── README.md
 │   │
+│   ├── Week3/        ← 🟡 In Progress
+│   │   ├── notebooks/
+│   │   │   ├── 1_transformer_basics.ipynb
+│   │   │   ├── 2_hf_pipelines.ipynb
+│   │   │   ├── 3_distilbert_finetuning.ipynb
+│   │   │   └── 4_gpt2_generation.ipynb
+│   │   ├── notes.md
+│   │   └── README.md
+│   │
 │   └── (Upcoming Weeks)
 │
 └── README.md  ← Main repository overview
 ```
+
 
 ### 📝 Notes Navigation  
 For my daily notes & learning progress refer to the **notes.md** inside each week:
