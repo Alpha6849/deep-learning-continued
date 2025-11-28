@@ -713,3 +713,75 @@ This adapts the pretrained model to my dataset.
 - Fine-tuning makes the model task-specific  
 - Inference follows the same pipeline without training  
 
+---
+
+# 📘 Notebook 2 — HuggingFace Pipelines (27/11/25 + 28/11/25)
+
+This notebook taught me how to use HuggingFace `pipeline()` to run powerful NLP models **without training anything**. These pipelines are great for prototyping and understanding how Transformers behave in real-world tasks.
+
+---
+
+
+###  1. Sentiment Analysis
+- Used a pretrained DistilBERT model.
+- Pipeline decides if text is **POSITIVE** or **NEGATIVE**.
+- No training or dataset required.
+
+###  2. Text Generation (GPT-2)
+- GPT-2 continues a prompt with meaningful text.
+- Learned about:
+  - `max_length`
+  - text sampling
+  - model creativity
+
+###  3. Question Answering (QA)
+- Pipeline extracts answers from a context paragraph.
+- Demonstrates BERT-like models understanding passages.
+
+###  4. Named Entity Recognition (NER)
+- Identifies:
+  - People  
+  - Locations  
+  - Organizations  
+  - Dates  
+  - Products  
+- Useful for extracting structured info from text.
+
+###  5. Summarization
+- Used T5-small to generate a concise summary.
+- Learned why some large models fail due to SSL or network limits.
+
+###  6. Zero-Shot Classification
+- Most powerful pipeline:
+  - Classifies text into ANY labels you provide.
+  - No training required.
+  - Uses MNLI models like BART.
+
+---
+
+##  Key Takeaways
+
+- HuggingFace pipelines allow instant NLP model usage.
+- Each pipeline automatically:
+  - Loads a model
+  - Loads tokenizer
+  - Preprocesses inputs
+  - Runs inference
+  - Returns readable results
+- Great for MVPs and quick experiments.
+- Sets the foundation for **fine-tuning DistilBERT** (Notebook 3).
+
+---
+
+##  Notebook Outputs
+- HF pipelines working on:
+  - Sentiment  
+  - GPT-2 generation  
+  - QA  
+  - NER  
+  - Summaries  
+  - Zero-shot classification  
+
+Next notebook → **Fine-tuning DistilBERT** on a custom dataset.
+
+---
